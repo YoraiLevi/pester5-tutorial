@@ -1,0 +1,26 @@
+name: Extract PowerShell code from markdown
+on: push
+
+jobs:
+  codeextractor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: extract code
+        shell: pwsh
+        run: |
+          npm install -g codedown
+          
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "ci build"
+          # git push # figure out how to push back to repo
+      # - name: Upload math result for job 1
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: markdown-files
+      #     path: |
+      #       **/*.md
+      #       **/*.ps1
+  

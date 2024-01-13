@@ -1,0 +1,1728 @@
+Pester v5.5.0
+
+Starting discovery in 1 files.
+Discovery phase: $_: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+
+-> Script, this is executed during Discovery
+	Previously_Executed: 
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+	DefinedVariable_In_Script: available ONLY during Discovery
+-> BeforeDiscovery, this is executed during Discovery
+	Previously_Executed: -> Script, this is executed during Discovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+	DefinedVariable_In_Script: available ONLY during Discovery
+-> Script After BeforeDiscovery
+	Previously_Executed: -> BeforeDiscovery, this is executed during Discovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+-> Script After BeforeAll definition, but before BeforeAll execution
+	Previously_Executed: -> Script After BeforeDiscovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+	Defining -> Describe
+-> Describe, this is executed during Discovery
+	Previously_Executed: -> Script After BeforeAll definition, but before BeforeAll execution
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Describe: available ONLY during Discovery
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+	Defining -> Describe -> BeforeAll
+	Defining -> Describe -> BeforeEach
+	Defining -> Describe -> AfterEach
+	Defining -> Describe -> AfterAll
+	Defining -> Describe -> It 1
+	Defining -> Describe -> It 2
+	Defining -> Describe -> Describe
+-> Describe -> Describe, this is executed during Discovery
+	Previously_Executed: -> Describe, this is executed during Discovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Describe: available ONLY during Discovery
+	DefinedVariable_In_Describe_Describe: available ONLY during Discovery
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+	Defining -> Describe -> Describe -> BeforeAll
+	Defining -> Describe -> Describe -> BeforeEach
+	Defining -> Describe -> Describe -> AfterEach
+	Defining -> Describe -> Describe -> AfterAll
+-> Describe -> Context, this is executed during Discovery
+	Previously_Executed: -> Describe -> Describe, this is executed during Discovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Describe: available ONLY during Discovery
+	DefinedVariable_In_Describe_Context: available ONLY during Discovery
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+	Defining -> Describe -> Context -> BeforeAll
+	Defining -> Describe -> Context -> BeforeEach
+	Defining -> Describe -> Context -> AfterEach
+	Defining -> Describe -> Context -> AfterAll
+	Defining -> Describe -> It After Context definitions
+-> Describe After It definitions, but before Run phase execution
+	Previously_Executed: -> Describe -> Context, this is executed during Discovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Describe: available ONLY during Discovery
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+-> Script After Describe execution
+	Previously_Executed: -> Describe After It definitions, but before Run phase execution
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+-> Describe, Making sure params are available in Run regardless of array or hashtable usage
+	Previously_Executed: -> Script After Describe execution
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+Discovery phase: $_: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+more args
+
+-> Script, this is executed during Discovery
+	Previously_Executed: 
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+	DefinedVariable_In_Script: available ONLY during Discovery
+-> BeforeDiscovery, this is executed during Discovery
+	Previously_Executed: -> Script, this is executed during Discovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+	DefinedVariable_In_Script: available ONLY during Discovery
+-> Script After BeforeDiscovery
+	Previously_Executed: -> BeforeDiscovery, this is executed during Discovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+-> Script After BeforeAll definition, but before BeforeAll execution
+	Previously_Executed: -> Script After BeforeDiscovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+	Defining -> Describe
+-> Describe, this is executed during Discovery
+	Previously_Executed: -> Script After BeforeAll definition, but before BeforeAll execution
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Describe: available ONLY during Discovery
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+	Defining -> Describe -> BeforeAll
+	Defining -> Describe -> BeforeEach
+	Defining -> Describe -> AfterEach
+	Defining -> Describe -> AfterAll
+	Defining -> Describe -> It 1
+	Defining -> Describe -> It 2
+	Defining -> Describe -> Describe
+-> Describe -> Describe, this is executed during Discovery
+	Previously_Executed: -> Describe, this is executed during Discovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Describe: available ONLY during Discovery
+	DefinedVariable_In_Describe_Describe: available ONLY during Discovery
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+	Defining -> Describe -> Describe -> BeforeAll
+	Defining -> Describe -> Describe -> BeforeEach
+	Defining -> Describe -> Describe -> AfterEach
+	Defining -> Describe -> Describe -> AfterAll
+-> Describe -> Context, this is executed during Discovery
+	Previously_Executed: -> Describe -> Describe, this is executed during Discovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Describe: available ONLY during Discovery
+	DefinedVariable_In_Describe_Context: available ONLY during Discovery
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+	Defining -> Describe -> Context -> BeforeAll
+	Defining -> Describe -> Context -> BeforeEach
+	Defining -> Describe -> Context -> AfterEach
+	Defining -> Describe -> Context -> AfterAll
+	Defining -> Describe -> It After Context definitions
+-> Describe After It definitions, but before Run phase execution
+	Previously_Executed: -> Describe -> Context, this is executed during Discovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Describe: available ONLY during Discovery
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+-> Script After Describe execution
+	Previously_Executed: -> Describe After It definitions, but before Run phase execution
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+-> Describe, Making sure params are available in Run regardless of array or hashtable usage
+	Previously_Executed: -> Script After Describe execution
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+Discovery phase: $_: 
+Name                           Value
+----                           -----
+DefinedVariable_In_Param       Provided hashtable entry is available both during Discovery and Run
+
+
+-> Script, this is executed during Discovery
+	Previously_Executed: 
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+	DefinedVariable_In_Script: available ONLY during Discovery
+-> BeforeDiscovery, this is executed during Discovery
+	Previously_Executed: -> Script, this is executed during Discovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+	DefinedVariable_In_Script: available ONLY during Discovery
+-> Script After BeforeDiscovery
+	Previously_Executed: -> BeforeDiscovery, this is executed during Discovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+-> Script After BeforeAll definition, but before BeforeAll execution
+	Previously_Executed: -> Script After BeforeDiscovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+	Defining -> Describe
+-> Describe, this is executed during Discovery
+	Previously_Executed: -> Script After BeforeAll definition, but before BeforeAll execution
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Describe: available ONLY during Discovery
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+	Defining -> Describe -> BeforeAll
+	Defining -> Describe -> BeforeEach
+	Defining -> Describe -> AfterEach
+	Defining -> Describe -> AfterAll
+	Defining -> Describe -> It 1
+	Defining -> Describe -> It 2
+	Defining -> Describe -> Describe
+-> Describe -> Describe, this is executed during Discovery
+	Previously_Executed: -> Describe, this is executed during Discovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Describe: available ONLY during Discovery
+	DefinedVariable_In_Describe_Describe: available ONLY during Discovery
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+	Defining -> Describe -> Describe -> BeforeAll
+	Defining -> Describe -> Describe -> BeforeEach
+	Defining -> Describe -> Describe -> AfterEach
+	Defining -> Describe -> Describe -> AfterAll
+-> Describe -> Context, this is executed during Discovery
+	Previously_Executed: -> Describe -> Describe, this is executed during Discovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Describe: available ONLY during Discovery
+	DefinedVariable_In_Describe_Context: available ONLY during Discovery
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+	Defining -> Describe -> Context -> BeforeAll
+	Defining -> Describe -> Context -> BeforeEach
+	Defining -> Describe -> Context -> AfterEach
+	Defining -> Describe -> Context -> AfterAll
+	Defining -> Describe -> It After Context definitions
+-> Describe After It definitions, but before Run phase execution
+	Previously_Executed: -> Describe -> Context, this is executed during Discovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Describe: available ONLY during Discovery
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+-> Script After Describe execution
+	Previously_Executed: -> Describe After It definitions, but before Run phase execution
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+-> Describe, Making sure params are available in Run regardless of array or hashtable usage
+	Previously_Executed: -> Script After Describe execution
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+Discovery phase: $_: 
+Name                           Value
+----                           -----
+DefinedVariable_In_Param       Provided hashtable entry is available both during Discovery and Run
+DefinedVariable_In_Invoking    Extra entries are available both during Discovery and Run
+
+
+-> Script, this is executed during Discovery
+	Previously_Executed: 
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+	DefinedVariable_In_Script: available ONLY during Discovery
+-> BeforeDiscovery, this is executed during Discovery
+	Previously_Executed: -> Script, this is executed during Discovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+	DefinedVariable_In_Script: available ONLY during Discovery
+-> Script After BeforeDiscovery
+	Previously_Executed: -> BeforeDiscovery, this is executed during Discovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+-> Script After BeforeAll definition, but before BeforeAll execution
+	Previously_Executed: -> Script After BeforeDiscovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+	Defining -> Describe
+-> Describe, this is executed during Discovery
+	Previously_Executed: -> Script After BeforeAll definition, but before BeforeAll execution
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Describe: available ONLY during Discovery
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+	Defining -> Describe -> BeforeAll
+	Defining -> Describe -> BeforeEach
+	Defining -> Describe -> AfterEach
+	Defining -> Describe -> AfterAll
+	Defining -> Describe -> It 1
+	Defining -> Describe -> It 2
+	Defining -> Describe -> Describe
+-> Describe -> Describe, this is executed during Discovery
+	Previously_Executed: -> Describe, this is executed during Discovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Describe: available ONLY during Discovery
+	DefinedVariable_In_Describe_Describe: available ONLY during Discovery
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+	Defining -> Describe -> Describe -> BeforeAll
+	Defining -> Describe -> Describe -> BeforeEach
+	Defining -> Describe -> Describe -> AfterEach
+	Defining -> Describe -> Describe -> AfterAll
+-> Describe -> Context, this is executed during Discovery
+	Previously_Executed: -> Describe -> Describe, this is executed during Discovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Describe: available ONLY during Discovery
+	DefinedVariable_In_Describe_Context: available ONLY during Discovery
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+	Defining -> Describe -> Context -> BeforeAll
+	Defining -> Describe -> Context -> BeforeEach
+	Defining -> Describe -> Context -> AfterEach
+	Defining -> Describe -> Context -> AfterAll
+	Defining -> Describe -> It After Context definitions
+-> Describe After It definitions, but before Run phase execution
+	Previously_Executed: -> Describe -> Context, this is executed during Discovery
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Describe: available ONLY during Discovery
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+-> Script After Describe execution
+	Previously_Executed: -> Describe After It definitions, but before Run phase execution
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+-> Describe, Making sure params are available in Run regardless of array or hashtable usage
+	Previously_Executed: -> Script After Describe execution
+	DefinedVariable_In_BeforeDiscovery: available ONLY during Discovery
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+	DefinedVariable_In_Script: Modified -> BeforeDiscovery
+Discovery found 32 tests in 141ms.
+Running tests.
+
+Running tests from 'C:\Users\devic\Documents\source\pester5-tutorial\tests\Tutorial.Invoke-VariableContext.Tests.ps1'
+-------------------Run phase execution begins-------------------
+-> BeforeAll, this is executed during Run
+	Previously_Executed: 
+	DefinedVariable_In_BeforeAll: available during Run
+-> Describe -> BeforeAll, this is executed during Run
+	Previously_Executed: -> BeforeAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+Describing Invoke Parameterized Tests: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+
+ Describing Describe
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> It 1, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> It 1, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+   [+] It 1
+ 6ms (4ms|2ms)
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> It 2, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> It 2, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+   [+] It 2
+ 5ms (4ms|1ms)
+-> Describe -> Describe -> BeforeAll, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+  Describing Nested Describe
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> BeforeAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Describe -> It 1, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> It 1, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+    [+] Describe It 1
+ 10ms (8ms|2ms)
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Describe -> It 2, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> It 2, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+    [+] Describe It 2
+ 8ms (7ms|1ms)
+-> Describe -> Describe -> AfterAll, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_AfterAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Context -> BeforeAll, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> AfterAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+  Context Nested Context
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> BeforeAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Context -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Context -> It 1, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Context -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> It 1, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+    [+] Context It 1
+ 12ms (11ms|1ms)
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Context -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Context -> It 2, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Context -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> It 2, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+    [+] Context It 2
+ 8ms (7ms|1ms)
+-> Describe -> Context -> AfterAll, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_AfterAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> AfterAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> It 3, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_3: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> It 3, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_3: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+   [+] It 3
+ 5ms (4ms|1ms)
+-> Describe -> AfterAll, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+ Describing Making sure params are available in Run regardless of array or hashtable usage
+-> Describe -> It 4, this is executed during Run
+	Previously_Executed: -> Describe -> AfterAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_It_4: available during Run
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+   [+] It 4
+ 3ms (2ms|1ms)
+-> AfterAll, this is executed during Run
+	Previously_Executed: -> Describe -> It 4, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterAll: available during Run
+-> BeforeAll, this is executed during Run
+	Previously_Executed: -> AfterAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+-> Describe -> BeforeAll, this is executed during Run
+	Previously_Executed: -> BeforeAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+
+Describing Invoke Parameterized Tests: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+more args
+
+ Describing Describe
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> It 1, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> It 1, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+   [+] It 1
+ 6ms (4ms|2ms)
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> It 2, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> It 2, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+   [+] It 2
+ 5ms (4ms|1ms)
+-> Describe -> Describe -> BeforeAll, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+  Describing Nested Describe
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> BeforeAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Describe -> It 1, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> It 1, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+    [+] Describe It 1
+ 9ms (7ms|1ms)
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Describe -> It 2, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> It 2, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+    [+] Describe It 2
+ 10ms (9ms|1ms)
+-> Describe -> Describe -> AfterAll, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_AfterAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Context -> BeforeAll, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> AfterAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+  Context Nested Context
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> BeforeAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Context -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Context -> It 1, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Context -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> It 1, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+    [+] Context It 1
+ 9ms (7ms|1ms)
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Context -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Context -> It 2, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> Context -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> It 2, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+    [+] Context It 2
+ 7ms (7ms|1ms)
+-> Describe -> Context -> AfterAll, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_AfterAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> AfterAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> It 3, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_3: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> It 3, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_3: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+   [+] It 3
+ 5ms (4ms|1ms)
+-> Describe -> AfterAll, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+ Describing Making sure params are available in Run regardless of array or hashtable usage
+-> Describe -> It 4, this is executed during Run
+	Previously_Executed: -> Describe -> AfterAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_It_4: available during Run
+	DefinedVariable_In_Param: Provided array entry is available during Discovery and can be bounded with '-ForEach' and $PSBoundParameters (see script)
+   [+] It 4
+ 3ms (1ms|1ms)
+-> AfterAll, this is executed during Run
+	Previously_Executed: -> Describe -> It 4, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterAll: available during Run
+-> BeforeAll, this is executed during Run
+	Previously_Executed: -> AfterAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> BeforeAll, this is executed during Run
+	Previously_Executed: -> BeforeAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+
+Describing Invoke Parameterized Tests: 
+Name                           Value
+----                           -----
+DefinedVariable_In_Param       Provided hashtable entry is available both during Discovery and Run
+
+
+ Describing Describe
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> It 1, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> It 1, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+   [+] It 1
+ 6ms (4ms|2ms)
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> It 2, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> It 2, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+   [+] It 2
+ 5ms (4ms|1ms)
+-> Describe -> Describe -> BeforeAll, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+  Describing Nested Describe
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> BeforeAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Describe -> It 1, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> It 1, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+    [+] Describe It 1
+ 13ms (12ms|1ms)
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Describe -> It 2, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> It 2, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+    [+] Describe It 2
+ 9ms (8ms|1ms)
+-> Describe -> Describe -> AfterAll, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_AfterAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Context -> BeforeAll, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> AfterAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+  Context Nested Context
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> BeforeAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Context -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Context -> It 1, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Context -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> It 1, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+    [+] Context It 1
+ 13ms (11ms|1ms)
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Context -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Context -> It 2, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Context -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> It 2, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+    [+] Context It 2
+ 8ms (7ms|1ms)
+-> Describe -> Context -> AfterAll, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_AfterAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> AfterAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> It 3, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_3: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> It 3, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_3: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+   [+] It 3
+ 5ms (4ms|1ms)
+-> Describe -> AfterAll, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+ Describing Making sure params are available in Run regardless of array or hashtable usage
+-> Describe -> It 4, this is executed during Run
+	Previously_Executed: -> Describe -> AfterAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_It_4: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+   [+] It 4
+ 3ms (1ms|1ms)
+-> AfterAll, this is executed during Run
+	Previously_Executed: -> Describe -> It 4, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterAll: available during Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> BeforeAll, this is executed during Run
+	Previously_Executed: -> AfterAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> BeforeAll, this is executed during Run
+	Previously_Executed: -> BeforeAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+
+Describing Invoke Parameterized Tests: 
+Name                           Value
+----                           -----
+DefinedVariable_In_Param       Provided hashtable entry is available both during Discovery and Run
+DefinedVariable_In_Invoking    Extra entries are available both during Discovery and Run
+
+
+ Describing Describe
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> It 1, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> It 1, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+   [+] It 1
+ 10ms (7ms|2ms)
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> It 2, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> It 2, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+   [+] It 2
+ 5ms (4ms|1ms)
+-> Describe -> Describe -> BeforeAll, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+  Describing Nested Describe
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> BeforeAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Describe -> It 1, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> It 1, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+    [+] Describe It 1
+ 9ms (8ms|1ms)
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Describe -> It 2, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> It 2, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+    [+] Describe It 2
+ 11ms (10ms|1ms)
+-> Describe -> Describe -> AfterAll, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_AfterAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Context -> BeforeAll, this is executed during Run
+	Previously_Executed: -> Describe -> Describe -> AfterAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+  Context Nested Context
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> BeforeAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Context -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Context -> It 1, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Context -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> It 1, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_1: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+    [+] Context It 1
+ 10ms (8ms|1ms)
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Context -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Context -> It 2, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> Context -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> It 2, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_Describe_It_2: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+    [+] Context It 2
+ 12ms (11ms|1ms)
+-> Describe -> Context -> AfterAll, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_Describe_AfterAll: available during Run
+	DefinedVariable_In_Describe_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> BeforeEach, this is executed during Run
+	Previously_Executed: -> Describe -> Context -> AfterAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> It 3, this is executed during Run
+	Previously_Executed: -> Describe -> BeforeEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_3: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-> Describe -> AfterEach, this is executed during Run
+	Previously_Executed: -> Describe -> It 3, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterEach: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_Describe_BeforeEach: available during Run
+	DefinedVariable_In_Describe_It_3: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+   [+] It 3
+ 6ms (5ms|1ms)
+-> Describe -> AfterAll, this is executed during Run
+	Previously_Executed: -> Describe -> AfterEach, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterAll: available during Run
+	DefinedVariable_In_Describe_BeforeAll: available during Run
+	DefinedVariable_In_DescribeForEach: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+ Describing Making sure params are available in Run regardless of array or hashtable usage
+-> Describe -> It 4, this is executed during Run
+	Previously_Executed: -> Describe -> AfterAll, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_It_4: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+   [+] It 4
+ 3ms (2ms|1ms)
+-> AfterAll, this is executed during Run
+	Previously_Executed: -> Describe -> It 4, this is executed during Run
+	DefinedVariable_In_BeforeAll: available during Run
+	DefinedVariable_In_Describe_AfterAll: available during Run
+	DefinedVariable_In_Invoking: Extra entries are available both during Discovery and Run
+	DefinedVariable_In_Param: Provided hashtable entry is available both during Discovery and Run
+-------------------Run phase execution ends-------------------
+Tests completed in 630ms
+Tests Passed: 32, 
+Failed: 0, 
+Skipped: 0 
+
+NotRun: 0
