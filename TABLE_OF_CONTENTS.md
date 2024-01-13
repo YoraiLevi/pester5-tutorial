@@ -1,9 +1,13 @@
 # Table of Contents
 
-- [VariableContext](src%5Cmarkdown%5CVariableContext.md)  
-- execution_order
-  - [How Blocks Execute copy](src%5Cmarkdown%5Cexecution_order%5CHow_Blocks_Execute%20copy.md)  
-  - [How Blocks Execute](src%5Cmarkdown%5Cexecution_order%5CHow_Blocks_Execute.md)  
-  - execution_order copy
-    - [How Blocks Execute copy1](src%5Cmarkdown%5Cexecution_order%5Cexecution_order%20copy%5CHow_Blocks_Execute%20copy1.md)  
-    - [How Blocks Execute2](src%5Cmarkdown%5Cexecution_order%5Cexecution_order%20copy%5CHow_Blocks_Execute2.md)  
+- [Introduction](src%5Cmarkdown%5C__Introduction.md)  
+- [Best Practices](src%5Cmarkdown%5CBest_Practices.md)  
+- Advanced_Tests
+  - [Custom Should Operators](src%5Cmarkdown%5CAdvanced_Tests%5CCustom_Should_Operators.md)  
+- Blocks_Edge_Cases
+  - [The Confusing Stuff](src%5Cmarkdown%5CBlocks_Edge_Cases%5CThe_Confusing_Stuff.md)  
+  - [Variable Context](src%5Cmarkdown%5CBlocks_Edge_Cases%5CVariable_Context.md)  
+  - [What's Executed](src%5Cmarkdown%5CBlocks_Edge_Cases%5CWhat%27s_Executed.md)  
+- Templates
+  - Parameterized_Tests
+    - [Parameterized Tests](src%5Cmarkdown%5CTemplates%5CParameterized_Tests%5CParameterized_Tests.md)  
