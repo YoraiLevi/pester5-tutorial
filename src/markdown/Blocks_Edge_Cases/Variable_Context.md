@@ -1,26 +1,3 @@
-# Example text
+# Variables Context
 
-text
-
-```ps1
-# filename.ps1
-function DefinedFunction_In_Script {
-```
-
-then we have more text
-
-```ps1
-}
-```
-blah blah
-```ps1
-# filename2.ps1
-somecode here
-```
-
-more text
-
-```ps1
-# filename.ps1
-more code
-```
+[Variables are not available in test](https://pester.dev/docs/usage/discovery-and-run#variables-are-not-available-in-test)
